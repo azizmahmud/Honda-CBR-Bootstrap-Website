@@ -1,0 +1,295 @@
+/* global stlye start */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin: 0;
+    padding: 0;
+}
+
+.main-button{
+    padding: 0.75rem 2rem; 
+    background: #E76F51;
+    border-radius: 0.313rem;
+    border: none;
+    color: #ffffff;
+}
+.main-button:hover{
+    color: #ffffff;
+}
+.container{
+ 
+}
+span{
+    color: #E76F51;
+}
+h1{
+font-weight: 600;
+font-size: 3rem;
+line-height:4.5rem;
+color: #000000;
+}
+h3{
+font-weight: 300;
+font-size:0.875rem;
+line-height:1.375rem;
+color: #000000;
+}
+
+p{
+font-weight:400;
+font-size:1rem;
+line-height:2rem;
+color: #6C6C6C !important;
+}
+
+/* hero and navigation start  */
+.header-section{
+background-color: #264653;
+}
+.navigation-button{
+    padding: 0.625rem 1.5rem; 
+    background: #E76F51;
+    border-radius: 0.313rem;
+    border: none;
+    color: #ffffff;
+}
+.navigation-button:hover{
+    color: #ffffff;
+}
+.logo{
+    font-weight: 600;
+    font-size: 2rem;
+    color: #ffffff !important;
+}
+.nav-item a{
+    color: #ffffff !important;
+}
+
+.hero-sub-heading{
+    font-weight: 300;
+    font-size:0.875rem;
+    line-height:1.375rem;
+    color: #E0E0E0 !important;
+}
+.hero-heading{
+    font-weight: 600;
+    font-size: 3rem;
+    line-height:4.5rem;
+}
+.hero-peragraph{
+    font-weight:400;
+font-size:1rem;
+line-height:2rem;
+color: #E0E0E0 !important;
+}
+/* hero and navigation end */
+
+
+
+
+
+
+
+
+/* Fetured Bikes section start */
+.fetured-bikes{
+    margin-top: 6.25rem;
+    margin-bottom: 3.125rem;
+}
+.fetured-heading{
+    font-weight: 600;
+    font-size: 3rem;
+    line-height:4.5rem;
+}
+.img-grayscale{
+    filter: grayscale(100%);
+}
+
+
+/* Fetured Bikes section end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* latest News section start */
+.latest-newses{
+    margin-top: 6.25rem;
+}
+.news-block{
+
+}
+.news-headings{
+    margin-bottom: 3.125rem;
+}
+
+.news-heading{
+    font-weight:600;
+    font-size:1.75rem;
+}
+.news-p{
+    font-weight:400;
+    font-size:1rem;
+    line-height:2.5rem;
+    color: #6C6C6C;
+}
+.main-outline-button{
+    padding: 0.75rem 2rem; 
+    border-radius: 0.313rem;
+    border: 0.063rem solid #E76F51 ;
+    color: #E76F51;
+}
+.main-outline-button:hover{
+    background: #E76F51;
+    border-radius: 0.313rem;
+    color: #ffffff;
+}
+
+/* latest News section end */
+.happy-client-section{
+ margin-top: 6.25rem;
+}
+
+.happy-client-headings{
+margin-bottom: 3.125rem;
+}
+.happy-client-img{
+
+}
+.client-name{
+    font-weight: 600;
+    font-size: 0.875rem; 
+    color: #23A6F0 !important;
+    padding-top: 1rem;
+    margin: 0;
+}
+.client-position{
+    padding-top: 1rem;
+    font-weight: 600;
+    font-size: 0.875rem; 
+    color: #252B42;
+    margin: 0;
+}
+.happy-p{
+    font-size:1rem;
+line-height:1.625rem;
+color: #6C6C6C !important;
+margin: 0;
+}
+.happy-star{
+    color: #E77C40;
+    font-size: 1rem;
+}
+
+
+/* Frequently Asked Questions start */
+
+.faq-section{
+    margin-top: 6.25rem;
+}
+.faq-headings{
+    margin-bottom:6.25rem;
+}
+.faq-heading{
+    font-weight: 600;
+    font-size: 3rem;
+    line-height:4.5rem; 
+}
+.faq-accordion-header{
+font-weight: 500;
+font-size:1.25rem;
+line-height:1.75rem;
+color: #383838;
+}
+.accordion-button:not(.collapsed) {
+    color: #383838;
+    background-color: #ffffff;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.accordion-item{
+    border: 1px solid #D5E5FB !important;
+border-radius: 5px;
+}
+.accordion-item:not(:first-of-type) {
+}
+.accordion-button::after {
+
+}
+.faq-accordion-body{
+font-weight:400;
+font-size:1rem;
+line-height:1.75rem;
+color: #7E848C !important;
+}
+
+
+
+/* footer section start */
+.footer{
+    margin-top: 6.25rem;
+    padding-top: 3.125rem;
+    padding-bottom: 6.25rem;
+    background-color: #0B0D17;
+}
+
+.footer-left a{
+    font-size: 1rem;
+}
+.footer-left p{
+    font-size:0.875rem;
+}
+.footer-right h2{
+    font-weight:500;
+    font-size:1.125rem;
+}
+/* footer section end */
+
+
+
+
+
+
+
+
+
+
+/* media quearis */
+
+@media (max-width: 767.98px) { 
+
+    .mobile-heading{
+        font-weight: 600;
+        font-size:2.25rem !important;
+        line-height:3.375rem !important;
+    }
+
+    .hero-sub-heading{
+margin-top: 3rem;
+    }
+
+
+
+    .footer-right{
+        margin-top:2rem;
+    }
+
+
+
+
+
+ }
